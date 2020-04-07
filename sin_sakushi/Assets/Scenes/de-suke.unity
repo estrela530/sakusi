@@ -198,6 +198,7 @@ GameObject:
   - component: {fileID: 510732175}
   - component: {fileID: 510732176}
   - component: {fileID: 510732177}
+  - component: {fileID: 510732178}
   m_Layer: 0
   m_Name: "\u53F0\u5EA7"
   m_TagString: Pedestal
@@ -402,6 +403,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &510732178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510732170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b862946898af1af43b466522c6e1f9a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: ca7fd8eafb3115f4c981b8c46f1f27a6, type: 3}
+  audioSource: {fileID: 510732177}
+  ignitStatus: {fileID: 510732175}
 --- !u!1 &531734821
 GameObject:
   m_ObjectHideFlags: 0
